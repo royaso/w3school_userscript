@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         w3school h1 color to red
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/royaso/w3school_userscript
 // @version      0.1
 // @description  w3school  html dom  header color change to red
 // @author       royaso
@@ -14,7 +14,7 @@
     // Your code here...
     var maincontent=document.getElementById('maincontent');
     var header1=maincontent.getElementsByTagName('h1')[0];
-    header1.style.color='purple';
+    header1.style.color='blue';
 
 
 })();
