@@ -14,7 +14,7 @@
     // Your code here...
     var maincontent=document.getElementById('maincontent');
     var header1=maincontent.getElementsByTagName('h1')[0];
-    header1.style.color='green';
+    header1.style.color='purple';
 
 
 })();
